@@ -1,7 +1,7 @@
 variable "instancias" {
   description = "Nombre de las instancias"
   type        = list(string)
-  default     = ["apache"]
+  default     = ["apache1","apache2"]
 
 }
 
